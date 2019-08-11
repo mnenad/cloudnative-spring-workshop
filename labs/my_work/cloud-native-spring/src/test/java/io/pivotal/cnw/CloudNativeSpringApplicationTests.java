@@ -1,4 +1,4 @@
-package io.pivotal.cloudnativespring;
+package io.pivotal.cnw;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

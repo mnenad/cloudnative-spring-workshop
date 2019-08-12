@@ -277,7 +277,7 @@ Out of the box is a _DiskSpaceHealthIndicator_ that monitors health in terms of 
 
 . Stop the cloud-native-spring application.
 
-. Create the class _io.pivotal.FlappingHealthIndicator_ (/cloud-native-spring/src/main/java/io/pivotal/FlappingHealthIndicator.java) and into it paste the following code:
+. Create the class _io.pivotal.cnw.FlappingHealthIndicator_ (/cloud-native-spring/src/main/java/io/pivotal/cnw/FlappingHealthIndicator.java) and into it paste the following code:
 +
 [source,java]
 ---------------------------------------------------------------------

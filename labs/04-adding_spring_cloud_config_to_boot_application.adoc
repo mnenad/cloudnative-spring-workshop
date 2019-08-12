@@ -228,7 +228,7 @@ These features are added by adding _spring-cloud-services-starter-config-client_
 
 ---------------------------------------------------------------------
 
-. Add an _@Value_ annotation, private field, and update the existing _@GetMapping_ annotated method to employ it in _io.pivotal.controller.GreetingController_ (/cloud-native-spring/src/main/java/io/pivotal/controller/GreetingController.java):
+. Add an _@Value_ annotation, private field, and update the existing _@GetMapping_ annotated method to employ it in _io.pivotal.controller.GreetingController_ (/cloud-native-spring/src/main/java/io/pivotal/cnw/controller/GreetingController.java):
 +
 [source,java]
 ---------------------------------------------------------------------
@@ -288,7 +288,7 @@ In *pom.xml*, we'll need to add a dependency
 		</dependency>
 ---------------------------------------------------------------------
 +
-In */cloud-native-spring/src/main/java/io/pivotal/CloudNativeSpringApplication.java* right underneath the +public static void main+ method implementation, add
+In */cloud-native-spring/src/main/java/io/pivotal/cnw/CloudNativeSpringApplication.java* right underneath the +public static void main+ method implementation, add
 +
 [source,java]
 ---------------------------------------------------------------------

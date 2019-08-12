@@ -14,7 +14,7 @@ dependencies {
 }
 ---------------------------------------------------------------------
 
-. The first thing we need to add to our application is an _@EnableCircuitBreaker_ annotation to the Spring Boot application.  Add this annotation below the other ones on the _CloudNativeSpringUiApplication_ declaration in the class _io.pivotal.CloudNativeSpringUiApplication_ (/cloud-native-spring-ui/src/main/java/io/pivotal/CloudNativeSpringUiApplication.java):
+. The first thing we need to add to our application is an _@EnableCircuitBreaker_ annotation to the Spring Boot application.  Add this annotation below the other ones on the _CloudNativeSpringUiApplication_ declaration in the class _io.pivotal.cnw.CloudNativeSpringUiApplication_ (/cloud-native-spring-ui/src/main/java/io/pivotal/CloudNativeSpringUiApplication.java):
 +
 [source,java]
 ---------------------------------------------------------------------

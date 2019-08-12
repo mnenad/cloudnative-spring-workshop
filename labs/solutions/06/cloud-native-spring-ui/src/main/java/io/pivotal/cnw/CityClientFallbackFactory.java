@@ -1,8 +1,9 @@
-package io.pivotal;
+package io.pivotal.cnw;
 
 import feign.hystrix.FallbackFactory;
-import io.pivotal.domain.City;
+import io.pivotal.cnw.domain.City;
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.hateoas.Resources;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,7 @@ class CityClientFallbackFactory implements FallbackFactory<CityClient> {
         return new CityClient() {
             @Override
             public Resources<City> getCities() {
-                log.info("Fallback triggered by {} due to {}", t.getClass().getName(), t.getMessage());
+                System.out.println("Fallback triggered by {} due to {}" + t.getClass().getName()+t.getMessage());
                 return new Resources<City>(Collections.emptyList());
             }
         };

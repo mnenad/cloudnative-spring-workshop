@@ -1,4 +1,4 @@
-package io.pivotal.domain;
+package io.pivotal.cnw.domain;
 
 import java.io.Serializable;
 import javax.persistence.Entity;

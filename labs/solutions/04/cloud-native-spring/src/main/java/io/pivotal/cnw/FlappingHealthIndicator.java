@@ -1,4 +1,4 @@
-package io.pivotal;
+package io.pivotal.cnw;
 
 import java.util.Random;
 

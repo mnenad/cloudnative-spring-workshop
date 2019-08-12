@@ -1,9 +1,9 @@
-package io.pivotal;
+package io.pivotal.cnw;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.Resources;
 import org.springframework.web.bind.annotation.GetMapping;
-import io.pivotal.domain.*;
+import io.pivotal.cnw.domain.*;
 
 
 @FeignClient(name = "${feign-target}", fallbackFactory = CityClientFallbackFactory.class)

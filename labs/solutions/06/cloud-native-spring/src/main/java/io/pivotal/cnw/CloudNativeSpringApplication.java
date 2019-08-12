@@ -1,4 +1,4 @@
-package io.pivotal;
+package io.pivotal.cnw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
